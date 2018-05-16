@@ -9,7 +9,6 @@ COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/mangakacoin/Mangaka-Core.git'
 COIN_TGZ='https://github.com/Realbityoda/Mangaka/releases/download/v.10.0.0.5/mangaka.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-SENTINEL_REPO='N/A'
 COIN_NAME='Mangaka'
 COIN_PORT=9711
 RPC_PORT=9880
